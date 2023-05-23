@@ -1,5 +1,11 @@
 # @sunset-ui/react
 
+## 1.0.6
+
+### Patch Changes
+
+- Exclude docs in NPM publish
+
 ## 1.0.5
 
 ### Patch Changes
