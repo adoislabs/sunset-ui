@@ -77,7 +77,7 @@ export const ButtonContainer = styled('button', {
     },
     size: {
       xl: {
-        padding: '0 $4',
+        padding: '0 $6',
         height: 64,
         fontSize: '$lg',
       },
@@ -94,6 +94,11 @@ export const ButtonContainer = styled('button', {
       sm: {
         padding: '0 $4',
         height: 38,
+        fontSize: '$xs',
+      },
+      xs: {
+        padding: '0 $2',
+        height: 30,
         fontSize: '$xs',
       },
     },

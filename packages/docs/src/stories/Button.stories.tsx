@@ -19,7 +19,7 @@ export default {
       },
     },
     size: {
-      options: ['sm', 'md', 'lg', 'xl'],
+      options: ['xs', 'sm', 'md', 'lg', 'xl'],
       control: {
         type: 'inline-radio',
       },
@@ -46,6 +46,12 @@ export const Tertiary: StoryObj<ButtonProps> = {
   args: {
     variant: 'tertiary',
     children: 'Cancel',
+  },
+}
+
+export const ExtraSmall: StoryObj<ButtonProps> = {
+  args: {
+    size: 'xs',
   },
 }
 
