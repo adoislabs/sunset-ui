@@ -1,5 +1,11 @@
 # @sunset-ui/tokens
 
+## 1.0.5
+
+### Patch Changes
+
+- Test
+
 ## 1.0.4
 
 ### Patch Changes
