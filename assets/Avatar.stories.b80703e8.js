@@ -1,0 +1,2 @@
+import{A as t}from"./index.c63e980d.js";import"./index.424336e6.js";import"./iframe.9de72a80.js";import"./jsx-runtime.31c7083a.js";import"./index.ceb14f45.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/alekaimer.png",alt:"Alexandre Kaimer"},argTypes:{src:{control:{type:"text"}}}},m={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{m as Primary,p as WithFallback,c as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.b80703e8.js.map
