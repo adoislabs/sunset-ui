@@ -1,5 +1,11 @@
 # @sunset-ui/react
 
+## 1.0.9
+
+### Patch Changes
+
+- Add new size props to Button and Heading components
+
 ## 1.0.8
 
 ### Patch Changes
