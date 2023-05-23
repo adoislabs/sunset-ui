@@ -1,5 +1,11 @@
 # @sunset-ui/react
 
+## 1.0.5
+
+### Patch Changes
+
+- Changeset test
+
 ## 1.0.4
 
 ### Patch Changes
