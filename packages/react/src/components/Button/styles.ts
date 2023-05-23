@@ -7,7 +7,7 @@ export const ButtonContainer = styled('button', {
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
+  // minWidth: 120,
   boxSizing: 'border-box',
 
   display: 'flex',
@@ -76,13 +76,20 @@ export const ButtonContainer = styled('button', {
       },
     },
     size: {
+      lg: {
+        padding: '0 $4',
+        height: 56,
+        fontSize: '$md',
+      },
       md: {
         padding: '0 $4',
         height: 46,
+        fontSize: '$sm',
       },
       sm: {
         padding: '0 $4',
         height: 38,
+        fontSize: '$xs',
       },
     },
   },

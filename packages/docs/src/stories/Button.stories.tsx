@@ -7,19 +7,19 @@ export default {
   component: Button,
   args: {
     children: 'Send',
-    variant: 'primary',
     size: 'md',
     disabled: false,
   },
   argTypes: {
     variant: {
       options: ['primary', 'secondary', 'tertiary'],
+      defaultValue: 'primary',
       control: {
         type: 'inline-radio',
       },
     },
     size: {
-      options: ['sm', 'md'],
+      options: ['sm', 'md', 'lg'],
       control: {
         type: 'inline-radio',
       },
@@ -52,6 +52,18 @@ export const Tertiary: StoryObj<ButtonProps> = {
 export const Small: StoryObj<ButtonProps> = {
   args: {
     size: 'sm',
+  },
+}
+
+export const MediumDefault: StoryObj<ButtonProps> = {
+  args: {
+    size: 'md',
+  },
+}
+
+export const Large: StoryObj<ButtonProps> = {
+  args: {
+    size: 'lg',
   },
 }
 
