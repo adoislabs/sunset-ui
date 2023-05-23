@@ -76,6 +76,11 @@ export const ButtonContainer = styled('button', {
       },
     },
     size: {
+      xl: {
+        padding: '0 $4',
+        height: 64,
+        fontSize: '$lg',
+      },
       lg: {
         padding: '0 $4',
         height: 56,

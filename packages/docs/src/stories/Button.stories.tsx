@@ -19,7 +19,7 @@ export default {
       },
     },
     size: {
-      options: ['sm', 'md', 'lg'],
+      options: ['sm', 'md', 'lg', 'xl'],
       control: {
         type: 'inline-radio',
       },
@@ -64,6 +64,12 @@ export const MediumDefault: StoryObj<ButtonProps> = {
 export const Large: StoryObj<ButtonProps> = {
   args: {
     size: 'lg',
+  },
+}
+
+export const ExtraLarge: StoryObj<ButtonProps> = {
+  args: {
+    size: 'xl',
   },
 }
 
