@@ -8,7 +8,8 @@ export const HeadingContainer = styled('h2', {
 
   variants: {
     size: {
-      sm: { fontSize: '$xl' },
+      xs: { fontSize: '$sm' },
+      sm: { fontSize: '$lg' },
       md: { fontSize: '$2xl' },
       lg: { fontSize: '$4xl' },
       '2xl': { fontSize: '$5xl' },
